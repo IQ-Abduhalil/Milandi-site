@@ -1,0 +1,116 @@
+.intro__top {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 155, 0);
+}
+
+.intro__middle {
+  background-color: black;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 145px;
+
+  &-title {
+    width: 588px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+  }
+
+  &-text {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 588px;
+    height: 60px;
+    left: 147px;
+    top: 454px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+  }
+
+  &-img {
+    margin-bottom: 150px;
+  }
+}
+
+.intro__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 155, 0);
+
+  &-btn {
+    margin-top: 145px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(/img/intro-bottom-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 155, 0);
+    cursor: pointer;
+    padding: 12px;
+    width: 8px;
+    height: 8px;
+  }
+
+  &-btns {
+    margin-top: 145px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 25px;
+    left: 24px;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(120, 119, 119);
+    width: 8px;
+    height: 8px;
+  }
+
+  &-btns:hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 145px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(/img/intro-bottom-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 155, 0);
+    padding: 12px;
+    width: 8px;
+    height: 8px;
+  }
+}
+
+.intro__container {
+  position: relative;
+}
+
+.intro__img {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  left: auto;
+  right: 144px;
+}
