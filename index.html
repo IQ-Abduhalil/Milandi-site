@@ -9,145 +9,427 @@
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__top">
-          <ul class="header__langs">
-            <li class="header__lang1">RU</li>
-            <li class="header__lang2">UZB</li>
-          </ul>
-        </div>
+    <h1 class="visually-hidden">Milandi-site</h1>
+    <header>
+      <div class="container header__top">
+        <ul class="header__top-langs">
+          <li><a class="header__top-lang" href="#">Ru</a></li>
+          <li><a class="header__top-lang" href="#">Uzb</a></li>
+        </ul>
+      </div>
 
-        <div class="header__middle">
-          <a href="#"
-            ><img
-              class="header__logo"
-              src="./img/logo-MILANDI.png"
-              alt="logo-MILANDI"
-          /></a>
-          <nav>
-            <ul class="header__navs">
-              <li class="header__nav">Главная</li>
-              <li class="header__nav">О нас</li>
-              <li class="header__nav">Категории</li>
-              <li class="header__nav">Сотрудничество</li>
-            </ul>
-          </nav>
-          <button class="header__btn1">Войти</button>
-          <button class="header__btn2">Зарегистрироваться</button>
-          <a href="#"><img src="./img/logo-korzinka.png" alt="korzina" /></a>
-        </div>
+      <div class="container header__middle">
+        <a href="#"
+          ><img
+            class="header__middle-logo"
+            src="./img/logo-MILANDI.png"
+            alt="milandi"
+        /></a>
+        <nav>
+          <ul class="header__middle-navs">
+            <li><a class="header__middle-nav" href="#">Главная</a></li>
+            <li><a class="header__middle-nav" href="#">О нас</a></li>
+            <li><a class="header__middle-nav" href="#">Категории</a></li>
+            <li><a class="header__middle-nav" href="#">Сотрудничество</a></li>
+          </ul>
+        </nav>
+        <button class="header__middle-btn">Войти</button>
+        <button class="header__middle-btn2">Зарегистрироваться</button>
+        <a href="#"
+          ><img
+            class="header__middle-logo2"
+            src="./img/logo-korzinka.png"
+            alt="logo-korzinka"
+        /></a>
       </div>
     </header>
 
     <main>
-      <div class="intro">
+      <section class="intro__section">
         <div class="container intro__container">
+          <img class="intro__container-img" src="/img/intro-bg.png" alt="img" />
           <div class="intro__top"></div>
           <div class="intro__middle">
-            <div class="intro__middle-texts">
-              <h2 class="intro__middle-title">
-                Быстрый и удобный шоппинг, не выходя из дома.
-              </h2>
-              <p class="intro__middle-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Convallis lectus odio vitae, duis nec ut velit, fermentum. Diam
-                sollicitudin arcu euismod morbi. Adipiscing bibendum elementum,
-                fermentum amet quis erat.
-              </p>
+            <h2 class="intro__middle-title">
+              Быстрый и удобный шоппинг, не выходя из дома.
+            </h2>
+            <p class="intro__middle-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis
+              lectus odio vitae, duis nec ut velit, fermentum. Diam sollicitudin
+              arcu euismod morbi. Adipiscing bibendum elementum, fermentum amet
+              quis erat.
+            </p>
+            <button class="intro__middle-btn">
               <img
-                class="intro__middle-img"
-                src="./img/intro-img.png"
-                alt="intro"
+                class="intro__middle-btn-img"
+                src="./img/intro-btn-img.svg"
+                alt=""
               />
-            </div>
+              <p class="intro__middle-btn-text">Все товары</p>
+            </button>
           </div>
           <div class="intro__bottom">
-            <button class="intro__bottom-btn"></button>
-            <button class="intro__bottom-btns"></button>
-            <button class="intro__bottom-btns"></button>
-            <button class="intro__bottom-btns"></button>
+            <ul class="intro__bottom-btns">
+              <li>
+                <img
+                  class="intro__bottom-btn"
+                  src="./img/intro-bottom-img.png"
+                  alt="btn"
+                />
+              </li>
+              <li>
+                <img
+                  class="intro__bottom-btn"
+                  src="./img/intro-bottom-img.png"
+                  alt="btn"
+                />
+              </li>
+              <li>
+                <img
+                  class="intro__bottom-btn"
+                  src="./img/intro-bottom-img.png"
+                  alt="btn"
+                />
+              </li>
+              <li>
+                <img
+                  class="intro__bottom-btn"
+                  src="./img/intro-bottom-img.png"
+                  alt="btn"
+                />
+              </li>
+            </ul>
           </div>
-          <img
-            class="intro__img"
-            src="./img/intro-bg.png"
-            alt="intro-img"
-            width="512"
-            height="788
-          "
-          />
         </div>
-      </div>
+      </section>
 
-      <div class="hero">
+      <section class="hero">
         <div class="container hero__container">
-          <h3 class="hero__title">Наши преимущества</h3>
-          <div class="hero__section1">
-            <div class="hero__section1-one">
+          <p class="hero__title">Наши преимущества</p>
+          <div class="hero__services">
+            <div class="hero__service">
               <img
-                class="hero__section1-one-img"
+                class="hero__service-img"
                 src="./img/ic_stars.png"
                 alt="stars"
               />
-              <p class="hero__section1-one-text">Лучший сервис</p>
+              <p class="hero__service-text">Лучший сервис</p>
             </div>
-
-            <div class="hero__section1-one">
+            <div class="hero__service">
               <img
-                class="hero__section1-one-img"
+                class="hero__service-img"
                 src="./img/ic_truck.png"
-                alt="truck"
+                alt="stars"
               />
-              <p class="hero__section1-one-text">Экспресс доставка</p>
+              <p class="hero__service-text">Экспресс доставка</p>
             </div>
-
-            <div class="hero__section1-one">
+            <div class="hero__service">
               <img
-                class="hero__section1-one-img"
+                class="hero__service-img"
                 src="./img/ic_like.png"
-                alt="like"
+                alt="stars"
               />
-              <p class="hero__section1-one-text">Лучшее качество в стране</p>
+              <p class="hero__service-text">Лучшее качество в стране</p>
             </div>
           </div>
+        </div>
+      </section>
 
-          <h3 class="hero__title2">Лучшие товары</h3>
-          <ul class="hero__section2">
-            <li>
-              <img
-                class="hero__section2-img"
-                src="./img/Карточка товара 1.png"
-                alt="tovar"
-              />
-            </li>
-            <li>
-              <img src="./img/Карточка товара 2.png" alt="tovar" />
-            </li>
-            <li>
-              <img src="./img/Карточка товара 3.png" alt="tovar" />
-            </li>
-            <li>
-              <img src="./img/Карточка товара 4.png" alt="tovar" />
-            </li>
-          </ul>
+      <section class="products">
+        <div class="container products__container">
+          <p class="products__container-title">Лучшие товары</p>
 
-          <h3 class="hero__title3">Категории</h3>
-          <ul class="hero__section3">
-            <li>
-              <img src="./img/Group 200.png" alt="" />
-            </li>
-            <li>
-              <img src="./img/image 23.png" alt="" />
-            </li>
-            <li>
-              <img src="./img/image 24.png" alt="" />
-            </li>
-            <li>
-              <img src="./img/image 25.png" alt="" />
-            </li>
+          <div class="products__container-product">
+            <div>
+              <img src="/img/card-img1.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img src="/img/card-img2.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img src="/img/card-img3.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img src="/img/card-img4.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="kinds">
+        <div class="container kinds__container">
+          <p class="kinds__container-title">Категории</p>
+          <ul class="kinds__container-imgs">
+            <li><img src="/img/Group 200.png" alt="img" /></li>
+            <li><img src="/img/image 24.png" alt="img" /></li>
+            <li><img src="/img/image 25.png" alt="img" /></li>
+            <li><img src="/img/image 25.png" alt="img" /></li>
           </ul>
         </div>
-      </div>
+      </section>
+
+      <section class="phone">
+        <div class="container phone__container">
+          <img
+            class="phone__container-img"
+            src="/img/iPhone 12 Pro mockup 1.png"
+            alt="phone"
+          />
+          <div class="phone__container-img"></div>
+          <div class="phone__container-info">
+            <p class="phone__container-info-title">
+              Скачай приложение и получай призы каждый день
+            </p>
+            <p class="phone__container-info-text">
+              Скачав наш приложение вы получаете возможность играть в призовые
+              игры каждый день и выигровать разного рода подарки для себя. В
+              нашем приложении призовые игры проходят аблолютно каждый день и
+              всё это совершенно бесплатно.
+            </p>
+            <div class="phone__container-imgs">
+              <img src="/img/available-on-the-app-store-1 1.svg" alt="insta" />
+              <img
+                src="/img/google-play-download-android-app 1.svg"
+                alt="google"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container products__container pro__container">
+          <p class="products__container-title">Новые товары</p>
+
+          <div class="products__container-product">
+            <div>
+              <img src="/img/card-img1.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img src="/img/card-img2.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img src="/img/card-img3.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img src="/img/card-img4.png" alt="negr" />
+              <div class="products__container-cards">
+                <p class="products__container-cards-title">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <p class="products__container-cards-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                  sed odio sed nascetur.
+                </p>
+                <div class="products__container-cards-stars">
+                  <img src="/img/card-stars.svg" alt="stars" />
+                  <p>855 у.е.</p>
+                </div>
+                <button class="products__container-cards-btn">
+                  Добавить в корзину
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="imperia">
+        <div class="container imperia__container">
+          <img src="/img/imperia.png" alt="imperia" />
+          <div class="imperia__container-info">
+            <p class="imperia__container-title">
+              Создай свой лук на все случаи жизни в “Imperia”
+            </p>
+            <p class="imperia__container-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+              sollicitudin a cursus in. Vel sit donec semper magna dignissim.
+              Amet, mi justo at metus vestibulum sollicitudin lacus. Nunc vel
+              egestas fermentum pellentesque sed vitae vel.
+            </p>
+            <button class="imperia__container-btn">начать покупки</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="grey">
+        <div class="container grey__container"></div>
+      </section>
+
+      <section class="yellow">
+        <div class="container yellow__container">
+          <p class="yellow__container-text">
+            Скидка <span class="yellow__container-title">30%</span> на первую
+            покупку обслютно для всех
+          </p>
+        </div>
+      </section>
+
+      <section class="grey">
+        <div class="container grey__container grey__container2"></div>
+      </section>
     </main>
+
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__container-one">
+          <p class="footer__container-title">про imperia</p>
+          <p class="footer__container-text texts">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+            pretium aenean dignissim sit cursus dictumst adipiscing nunc.
+          </p>
+          <img
+            class="footer__container-img"
+            src="/img/footer-img.svg"
+            alt="img"
+          />
+        </div>
+
+        <div class="footer__container-two">
+          <p class="footer__container-title">контакты</p>
+          <p class="footer__container-text">+998 90 958 78 87</p>
+          <p class="footer__container-text">support@fonon.uz</p>
+          <p class="footer__container-title">рабочее время</p>
+          <p class="footer__container-text">По будням 9:00 to 18:00</p>
+          <p class="footer__container-text">В выходные 11:00 to 18:00</p>
+        </div>
+
+        <div class="footer__container-three">
+          <p class="footer__container-title">Меню</p>
+          <p class="footer__container-text">Главная</p>
+          <p class="footer__container-text">О нас</p>
+          <p class="footer__container-text">Категории</p>
+          <p class="footer__container-text">Сотрудничество</p>
+        </div>
+
+        <div class="footer__container-four">
+          <p class="footer__container-title">категории</p>
+          <p class="footer__container-text">ГлавнаяЖенская одежда</p>
+          <p class="footer__container-text">Мужская одежда</p>
+          <p class="footer__container-text">Детская одежда</p>
+          <p class="footer__container-text">Обувь</p>
+          <p class="footer__container-text">Сумки</p>
+          <p class="footer__container-text">Аксесуары</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
