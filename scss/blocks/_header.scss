@@ -1,71 +1,85 @@
-.header {
-  display: flex;
-  padding-top: 20px;
+.header__top {
+  background-color: $black;
+  padding: 13px 147px;
+  margin-right: auto;
+  margin-left: auto;
 
-  &__top {
-    background-color: #0d0d0d;
-    background-size: 100%;
-  }
-
-  &__langs {
+  &-langs {
     display: flex;
     gap: 8px;
-    padding: 13px 1230px 13px 145px;
   }
 
-  &__lang1 {
-    align-items: center;
-    color: #fff;
+  &-lang {
+    font-style: normal;
     font-weight: 700;
     font-size: 10px;
     line-height: 140%;
-    letter-spacing: 1.5px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-
-  &__lang2 {
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 140%;
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
     text-align: center;
     letter-spacing: 1.5px;
-    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
   }
 
-  &__middle {
-    display: flex;
-    padding: 20px 145px;
+  &-lang:active {
+    color: $yellow;
   }
+}
 
-  &__logo {
+.header__middle {
+  display: flex;
+  padding: 20px 147px;
+
+  &-logo {
     margin-right: 98px;
+    margin-left: 0;
   }
 
-  &__navs {
+  &-navs {
     display: flex;
     gap: 24px;
   }
 
-  &__btn1 {
-    margin-left: 145px;
-    margin-right: 23px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 4px 8px;
-    border: none;
+  &-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #000000;
   }
 
-  &__btn2 {
+  &-nav:hover {
+    color: $yellow;
+  }
+
+  &-btn {
+    margin-left: 223px;
+    margin-right: 15px;
+    padding: 4px 8px;
     border: none;
     border-radius: 4px;
-    background-color: #ffc000;
-    margin-right: 43px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #0d0d0d;
+  }
+
+  &-btn2 {
+    margin-right: 42px;
     padding: 4px 8px;
+    background-color: $yellow;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #0d0d0d;
   }
 }
